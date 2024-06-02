@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous" />
+    <link href="./styles/App.css" rel="stylesheet"  />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <header class="px-4 py-2">
+      <section class="flex justify-content-between align-items-end align-content-center mw-1080 mx-auto">
+              <img src='./image/logo.jpg' class="r-img" />
+              <button class="desk-none display-5 p-0"  onclick="toggleMobileMenu()">&#9776;</button>
+          <nav class="mobile-none" >
+              <ul class="flex list-style-none align-items-center">
+                  <li class="me-5"><a class="black" href='./'> HOME </a></li>
+                  <li class="me-5 white-no-wrap"><a class="black" href='./about.html'> ABOUT US</a></li>
+                  <li class="me-5"><a class="black" href='./contact.html'> CONTACT </a></li>
+                  <li class="me-5"><a class="black" href='./gallery.html'> GALLERY </a></li>
+                  <li class=""><a href='./donate' class="btn btn-primary"> DONATE</a></li>
+              </ul>
+          </nav>
+      </section> 
+      <nav class="pt-5 show" id="mobile-menu" >
+          <ul class="list-style-none ps-0">
+              <li  class="mb-5"><a class="black" href='./'> HOME </a></li>
+              <li class="mb-5 white-no-wrap"><a class="black" href='./about.html'> ABOUT US</a></li>
+              <li class="mb-5"><a class="black" href='./contact.html'> CONTACT </a></li>
+              <li class="mb-5"><a class="black" href='./gallery.html'> GALLERY </a></li>
+              <li class=""><a href='./donate.html'> DONATE</a></li>
+          </ul>
+      </nav>
+  </header>
+  <section class="rec-1 bg-default">
+    <div class="dark-shade ">
+        <div class="mw-1080 mx-auto flex justify-content-center align-items-center text-center h-100">
+            <div>
+                <h1 class="display-2 font-weight-bold white">
+                    Donate to Us
+                </h1>
+                <p class="h4 white mt-2 mb-4">
+                    Helping indigent, physically challenged persons <br /> and poor
+                    widows live out their dreams.
+                </p>
+                <p>
+                    <a href='./contact.html' class=" display-4 font-weight-bold btn btn-lg btn-primary px-4">
+                        Get Help
+                    </a>
+                    <a href='#get-involved' class=" display-4 font-weight-bold btn btn-lg btn-outline-primary ms-5 px-4 ">
+                        Volunteer
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+            <section class="rec-7 py-5">
+                <div class="mx-auto mw-810 text-justify p-4 pt-5 bg-white">
+                    <p>Welcome to our donation page, where your generosity can make a meaningful difference in the lives of those who need it most. At our charity organization we strive to uplift and empower three vulnerable groups in society 
+                        <ol>
+                            <li>Poor children</li>
+                            <li>Physically challenged</li>
+                            <li>Widows</li>
+                        </ol>
+                    </p>
+                    <p>Your contribuution can help us provide essential service and support to underprivileged children, ensuring they have access to education, healthcare and a chance for a brighter future. With your help, we can break the cycle of poverty and give thee children a shot at a better life.</p>
+                    <p>Additionally your help will aid us in improving the lives of individuals with physical challenges. By providing assisting devices, accessibilty solutions, and rehabilitation services, we can enhance their dreams and contributon to society.</p>
+                    <p>Furthermore your support will directly impact widows who have lost their source of income, often finding theselves in vulnerable situations. Through financial assistance, skill development programs and emotional support, we aim to empower them to rebuild their lives and create a sustainable future for themselves and their families.</p>
+                    <p>Every donation, no matter how small or large counts and can bring hope and happiness to those who need it the most. Join us in making a positive change and help us create a world where every child has an opportunity, every physically challenged person can thrive and every widow recives the support they deserve. </p>
+                    <p>We are grateful</p>
+                </div>
+                <div class="mw-540 mx-auto border text-center border p-4">
+                    <p>ACCOUNT NUMBER: <b>1020806052</b></p>
+                    <p>BANK NAME: <b>UNITED BANK FOR AFRICA (UBA)</b> </p>
+                    <p>ACCOUNT NAME: <b> Rev Father Callistus Osiaga Foundation</b></p>
+                    <p>Kindly send your proof of payment to 08030417443 or 08133801784. Thanks</p>
+                </div>
+            </section>
+            <footer class='px-4'>
+                <section class="pt-5 grid three-col-600 gap-2 justify-self-start mw-1080 mx-auto ">
+                    <img src='./image/logo.jpg' class="r-img" />
+                    <nav class='' >
+                        <h5>Quick Links</h5>
+                        <ul class="list-style-none ps-0">
+                            <li class=""><small><a class="black" href='./index.html'> Home </a></small></li>
+                            <li class=""><small><a class="black" href='./about.html'> About us</a></small></li>
+                            <li class=""><small><a class="black" href='./contact.html'> Contact </a></small></li>
+                            <li class=""><small><a class="black" href='./gallery.html'> Gallery </a></small></li>
+                            <li class=""><small><a href='./donate.html'> Donate</a></small></li>
+                        </ul>
+                    </nav>
+                    <div >
+                        <h5 class=''>Get in touch</h5>
+                        <ul class="list-style-none ps-0">
+                            <li class="">
+                                <img class='me-3' src='./image/geo-alt.svg'/>
+                                <small>Iyesimi Quarters, Afowa-Uzairue, <br/>Etsako West, Edo State, Nigeria.</small>
+                            </li>
+                            <li class="">
+                                <img class='me-3' src='./image/telephone.svg' />
+                                <small>+234 803 041 7443, +234 816 022 6089</small>
+                            </li>
+                            <li class="">
+                                <img class='me-3' src='./image/envelope.svg' />
+                                <small>info@rfcof.org</small>
+                            </li>
+                            <li class="">
+                                <img class='me-3' src='./image/whatsapp.svg' />
+                                <small>+234 803 041 7443, +234 816 022 6089</small>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    
+                </section>
+                <div class="text-center">
+                    <small>© 2024 RFCOF. All Rights Reserved.</small>
+                </div>
+            </footer>
+              <script>
+                var mobileMenu = document.getElementById('mobile-menu')
+                function toggleMobileMenu(){
+                  mobileMenu.classList.toggle('show')
+                }
+              </script>
+              </body>
+            </html>
+            
