@@ -152,7 +152,7 @@ button:focus-visible {
 .dark-shade{
   width: 100%;
   height: 100%;
-  background-color: rgba(10, 10, 10, 0.6 )
+  background-color: rgba(10, 10, 10, 0.3)
 }
 .bg-default{
   background-position: center ;
@@ -333,4 +333,10 @@ button:focus-visible {
   .three-col-600{
     grid-template-columns: 1fr ;
   }
+}
+.bg-0{
+  background: none;
+}
+.border-0{
+  border: none;
 }
